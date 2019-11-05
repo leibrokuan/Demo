@@ -31,6 +31,7 @@ public class MyListener implements HttpSessionListener, ServletContextListener {
 
         //存储变量
         sc.setAttribute("count",0);
+        System.out.println("sdasd ");
     }
 
     @Override
