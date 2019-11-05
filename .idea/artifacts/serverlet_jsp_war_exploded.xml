@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="serverlet&amp;jsp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/serverlet_jsp_war_exploded</output-path>
+    <root id="archive" name="serverlet&amp;jsp_war exploded.war">
+      <element id="javaee-facet-resources" facet="serverlet&amp;jsp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="serverlet&amp;jsp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
