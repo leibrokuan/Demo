@@ -1,4 +1,6 @@
-<%@ page import="pojo.User" %><%--
+<%@ page import="pojo.User" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--
   Created by IntelliJ IDEA.
   User: leikuan
   Date: 2019/10/20
@@ -49,7 +51,10 @@
     </ul>
 
     <div class="user">
-        <span><%=((User)session.getAttribute("user")).getUname()%></span>
+        <%--<span><%=((User)session.getAttribute("user")).getUname()%></span>--%>
+        <span>${sessionScope.user.uname}</span>
+            <span>当前在线人数为:${applicationScope.count}</span>
+
     </div>
 
 </div>
